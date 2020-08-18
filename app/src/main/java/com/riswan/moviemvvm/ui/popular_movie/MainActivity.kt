@@ -39,8 +39,6 @@ class MainActivity : AppCompatActivity() {
                 if (viewType == movieAdapter.MOVIE_VIEW_TYPE) return 1
                 else return 3
             }
-
-
         }
 
         rv_movie_list.layoutManager = gridLayoutManager

@@ -59,6 +59,8 @@ class PopularMoviePagedListAdapter(val context: Context): PagedListAdapter<Movie
         }
     }
 
+
+
     class MovieDiffCallback: DiffUtil.ItemCallback<Movie>() {
         override fun areItemsTheSame(oldItem: Movie, newItem: Movie): Boolean {
             return oldItem.id == newItem.id
